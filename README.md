@@ -1,3 +1,4 @@
+![Evolutio-logo](logo.png)
 # Evolutio
 *Frontend A\B testing framework with automated code removing of finished tests*
 
