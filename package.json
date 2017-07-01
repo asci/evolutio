@@ -1,0 +1,25 @@
+{
+  "name": "evolutio",
+  "version": "0.1.1",
+  "description": "ab testing framework",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jscodeshift": "jscodeshift",
+    "jscodeshift:run": "jscodeshift -t ./src/transform.js -d ./src/index.js -p"
+  },
+  "keywords": [
+    "abtest",
+    "testing",
+    "ab"
+  ],
+  "bin": {
+    "evolutio": "./cli/index.js"
+  },
+  "author": "asci@yandex.com",
+  "license": "ISC",
+  "dependencies": {
+    "jscodeshift": "^0.3.32",
+    "nomnom": "^1.8.1"
+  }
+}
