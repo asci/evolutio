@@ -1,6 +1,6 @@
 {
   "name": "evolutio",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ab testing framework",
   "main": "src/index.js",
   "scripts": {
