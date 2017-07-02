@@ -1,4 +1,4 @@
-![Evolutio-logo](logo.png)
+![Evolutio-logo](https://github.com/asci/evolutio/raw/master/design/logo.png)
 # Evolutio
 *Frontend A\B testing framework with automated code removing of finished tests*
 
