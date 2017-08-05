@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main func js it transform correctly 1`] = `
+"Processing 1 files... 
+Spawning 1 workers...
+Running in dry mode, no files will be written! 
+Sending 1 files to free worker...
+const evo = require('../../src');
+const dna = {
+  currentValue: 'a'
+};
+
+const { Mutation } = evo(dna);
+
+function someFucntion() {
+  const buttonText = 'Buy now';
+
+  const buttonClass = 'normal';
+
+  function extenalFunc() {
+    console.log('declarative function');
+  }
+
+  extenalFunc();
+
+  return \`<button class=\\"\${buttonClass}\\">\${buttonText}</button>\`
+}
+
+console.log(someFucntion());
+
+All done. 
+Results: 
+0 errors
+0 unmodified
+0 skipped
+1 ok"
+`;
